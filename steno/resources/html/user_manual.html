@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>User manual</title>
+<head>
+</head>
+<body>
+    <a name="page-top"></a>
+    <h1>User manual</h1>
+    <h2>Table of contents</h2>
+    <ol>
+        <li><a href="#choose-video-and-subtitles">Choose video and subtitles</a></li>
+        <li><a href="#preview-mode">&#8220;Preview&#8221; mode</a></li>
+        <li><a href="#learning-mode">&#8220;Learning&#8221; mode</a></li>
+        <li><a href="#settings">Settings</a></li>
+        <li><a href="#filters-for-the-subtitles">Filters for the subtitles</a></li>
+    </ol>
+    
+    <a name="choose-video-and-subtitles"></a>
+    <h2>Choose video and subtitles</h2>
+    <p>Before the training you should choose an educational material. It may be some
+    movie, or clip, or TV show, but there are two conditions for the selection of
+    the material:</p>
+    <ul>
+        <li>It has to be in the language you&#8217;re learning. It may be the localization of the chosen movie for a foreign country if the original movie in your native language.</li>
+        <li>You should find the correct subtitles in the same language. The quality of the training is highly dependent on the accuracy of the chosen subtitles.</li>
+    </ul>
+    <p>When you&#8217;ll have the video and subtitles, you can open them by pressing Ctrl+O for
+    the video and Ctrl+S for the subtitles or by selecting an appropriate item in menu
+    &#8220;File&#8221;.</p>
+
+    <a name="preview-mode"></a>
+    <h2>&#8220;Preview&#8221; mode</h2>
+    <p>This mode may be used to check the accuracy of the subtitles and to set
+    a value of the subtitles shift if it&#8217;s not synchronized with the video.
+    This value is specified in milliseconds and is used in both modes. It may be
+    negative. Important to set the shift value as accurate as possible,
+    because it influences the calculation of boundaries of video segments.</p>
+    <p>In this mode you should to set a volume level in order to not be distracted to
+    it during trainging. The volume level should be sufficient so that you could hear
+    every word, but not too high, because high loudness will tire your sense of
+    hearing quickly.</p>
+    <p>Next, you can select a location from which you wish to start the training and
+    change the mode to &#8220;Learning&#8221;.</p>
+
+    <a name="learning-mode"></a>
+    <h2>&#8220;Learning&#8221; mode</h2>
+    <p>This mode is used for the training.
+    Watching the movie, you should listen to speech in the foreign language and type
+    everything you hear.
+    If you don&#8217;t have time to type a phrase during the playback, the application
+    will pause the video and will continue to play as soon as you will have typed the last word
+    of the phrase. Steno checks the correctness after the typing of each letter, it uses
+    the subtitles to assess. Errors are highlighted immediately after detection.</p>
+    <p>You can repeat the last segment of the video as many times as necessary. To do
+    this, use the hotkey Ctrl+R or the &#8220;Repeat&#8221; button. If you can&#8217;t recognize one or
+    more words, you can use the hint by pressing Ctrl+H or by clicking the &#8220;Hint&#8221;
+    button. In this case, next word will be appended at once.</p>
+    <p>Steno translates an every typed word and whole phrase using Google
+    Translate.</p>
+    <p>You can interrupt a lesson at any moment by pressing the &#8220;Stop&#8221; button or
+    by changing the mode of the application.</p>
+
+    <a name="settings"></a>
+    <h2>Settings</h2>
+    <p>You can use the &#8220;Preferences&#8221; dialog to configure the application. It may be
+    opened by pressing Ctrl+P or by selecting of an appropriate item in menu &#8220;Edit&#8221;.
+    This dialog allows to edit the following settings:</p>
+    <ul>
+        <li>Disable the translation, if you don&#8217;t want to use it.</li>
+        <li>Choose a foreign language which is a language of your educational material.</li>
+        <li>Choose your native language which is a target language for the translation.</li>
+        <li>Choose colors and fonts of the application window.</li>
+        <li>Choose colors of the highlighting.</li>
+        <li>Add, update, or remove filters for the subtitles content.</li>
+    </ul>
+
+    <a name="filters-for-the-subtitles"></a>
+    <h2>Filters for the subtitles</h2>
+    <p>Sometimes the subtitles text contains different comments, except speech of
+    characters. For example, notes about an intonation or noise, designations on
+    who is speaking, etc. These comments have characteristic signs such as
+    square brackets or uppercase.</p>
+    <p>Steno uses filters in order to remove the extra information from the subtitles.
+    The application has the default collection of filters which is works in most
+    cases, but you can add your own filters using the &#8220;Preferences&#8221; dialog.</p>
+    <p>Every filter contains two values:</p>
+    <ul>
+        <li>Regular expression pattern that is used to spot an undesired text.</li>
+        <li>Replacement data that are usually whitespace or empty.</li>
+    </ul>
+    
+    <a href="#page-top">Go to top</a>
+</body>

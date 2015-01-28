@@ -1,0 +1,5 @@
+include README.rst
+
+# Including images and icons
+recursive-include steno/resources/img *
+recursive-include steno/resources/html *

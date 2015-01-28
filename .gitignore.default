@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*~
+.*
+*.tar.bz2
+*.tar.gz
+*.rar
+*.zip
+*.backup
+*.swp
+docs/build
